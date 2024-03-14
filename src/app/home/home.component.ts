@@ -12,19 +12,19 @@ import { CommonModule } from '@angular/common';
 export class HomeComponent {
   listaProdutos = [
     {
-      imagem: 'assets/produto.png',
+      imagem: 'assets/banana.jpg',
       descricao: 'Banana'
     },
     {
-      imagem: 'assets/produto.png',
+      imagem: 'assets/maca.jpg',
       descricao: 'Maça'
     },
     {
-      imagem: 'assets/produto.png',
+      imagem: 'assets/pera.jpg',
       descricao: 'Pera'
     },
     {
-      imagem: 'assets/produto.png',
+      imagem: 'assets/uva.jpg',
       descricao: 'Uva'
     }
   ];

@@ -1,5 +1,7 @@
-<p>home test</p>
+<div class="home">
 
-<div *ngFor="let produto of listaProdutos">
-  <app-card></app-card>
+  <div *ngFor="let produto of listaProdutos">
+    <app-card [item]="produto"></app-card>
+  </div>
+
 </div>

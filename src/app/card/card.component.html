@@ -1,5 +1,4 @@
 <div class="card">
-  <img src="assets/produto.png" alt="">
-  <span>Produto {{ produto }}</span>
-  <span>Valor: R${{ valor }}</span>
+  <img [src]="item?.imagem" alt="">
+  <span>Descrição: {{ item?.descricao }}</span>
 </div>
