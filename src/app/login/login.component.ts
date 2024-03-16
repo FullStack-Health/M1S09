@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule], //Importação do Modulo de Template Driven
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
